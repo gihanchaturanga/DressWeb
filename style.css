@@ -1,0 +1,126 @@
+/* Global area */
+.bg-color{
+    background-color: #e22bab;
+}
+.navbar-padding{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.navbar-brand{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.products-title{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Mitr', sans-serif;
+    color: #e22bab;
+}
+.product-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-img{
+    border-radius: 10px;
+}
+.product-row{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.footer-row{
+    height: 80px;
+    background-color: #e22bab;
+}
+.footer-row a {
+    text-decoration: none;
+    color: white;
+}
+
+/* large screen size */
+@media  only screen and (min-width: 992px) {
+    .hero-banner{
+        overflow: hidden;
+        height: 650px;
+    }
+    .hero-banner img {
+        width: 100%;
+    }
+    .hero-text{
+        text-align: center;
+        line-height: 100px;
+        font-family: 'Lobster', cursive;
+        font-size: 90px;
+        color: #e22bab;
+        text-shadow: 8px 8px 18px #0000003d;
+    }
+    .hero-text-div{
+        margin-top: -550px;
+    }
+    .product-img{
+        overflow: hidden;
+        height: 300px;
+
+    }
+    
+}
+
+/* medium screen size */
+@media  (max-width: 992px) and (min-width: 768px) {
+    .hero-banner{
+        overflow: hidden;
+        height: 650px;
+    }
+    .hero-banner img {
+        width: 100%;
+    }
+    .hero-text{
+        text-align: center;
+        line-height: 70px;
+        font-family: 'Lobster', cursive;
+        font-size: 65px;
+        color: #e22bab;
+        text-shadow: 8px 8px 18px #0000003d;
+    }
+    .hero-text-div{
+        margin-top: -550px;
+    }
+    .product-img{
+        overflow: hidden;
+        height: 500px;
+    }
+    
+}
+
+/* small screen size */
+@media  (max-width: 768px){
+    .hero-banner{
+        overflow: hidden;
+        height: 100%;
+    }
+    .hero-banner img {
+        width: 150%;
+    }
+    .hero-text{
+        text-align: center;
+        line-height: 70px;
+        font-family: 'Lobster', cursive;
+        font-size: 300%;
+        color: #e22bab;
+        text-shadow: 8px 8px 18px #0000003d;
+    }
+    .hero-text-div{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .bg-color-sm{
+        background-color: #ffbac3;
+    }
+    footer h6 {
+        margin-left: 20px;
+    }
+}
