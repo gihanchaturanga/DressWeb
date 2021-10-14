@@ -123,4 +123,10 @@
     footer h6 {
         margin-left: 20px;
     }
+    .product-name h3 {
+        text-align: center;
+    }
+    .product-name p {
+        text-align: center;
+    }
 }
