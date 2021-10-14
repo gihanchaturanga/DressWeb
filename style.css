@@ -66,6 +66,14 @@
         height: 300px;
 
     }
+    .contact-cont{
+        height: 550px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .contact-cont{
+        color: white;
+    }
     
 }
 
@@ -92,6 +100,14 @@
     .product-img{
         overflow: hidden;
         height: 500px;
+    }
+    .contact-cont{
+        height: 500px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .contact-cont{
+        color: white;
     }
     
 }
@@ -128,5 +144,17 @@
     }
     .product-name h3{
         text-align: center;
+    }
+    .contact-cont{
+        height: 800px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .contact-cont{
+        color: white;
+    }
+    .cont-txt-fld{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
