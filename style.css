@@ -40,6 +40,33 @@
     text-decoration: none;
     color: white;
 }
+.login-row{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #e22bab;
+}
+.login-row h4 {
+    font-family: 'Mitr', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+}
+.login label {
+    color: white;
+}
+.reg h4 {
+    font-family: 'Mitr', sans-serif;
+    color: #e22bab;
+    text-align: center;
+    margin-top: 6%;
+}
+#qty {
+    width: 40px;
+    text-align: center;
+}
+.btn-qty {
+    border-radius: 100%;
+}
 
 /* large screen size */
 @media  only screen and (min-width: 992px) {
@@ -73,6 +100,30 @@
     }
     .contact-cont{
         color: white;
+    }
+    .login-row{
+        height: 690px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+    .login-row .login{
+        background-color: #e22bab;
+    }
+    .reg input {
+        border-color: #e22bab;
+        border-style: solid;
+    }
+    .reg .input-group-text {
+        border-color: #e22bab;
+        border-style: solid;
+    }
+    .radius{
+        border-radius: 10px;
+    }
+    .purchase-pdct-img{
+        overflow: hidden;
+        height: 450px;
     }
     
 }
@@ -108,6 +159,23 @@
     }
     .contact-cont{
         color: white;
+    }
+    .login-row{
+        height: 670px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+    .login-row .login{
+        background-color: #e22bab;
+    }
+    .reg input {
+        border-color: #e22bab;
+        border-style: solid;
+    }
+    .reg .input-group-text {
+        border-color: #e22bab;
+        border-style: solid;
     }
     
 }
@@ -156,5 +224,22 @@
     .cont-txt-fld{
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .login-row{
+        height: 1050px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+    .login-row .login{
+        background-color: #e22bab;
+    }
+    .reg input {
+        border-color: #e22bab;
+        border-style: solid;
+    }
+    .reg .input-group-text {
+        border-color: #e22bab;
+        border-style: solid;
     }
 }
