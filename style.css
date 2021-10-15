@@ -60,6 +60,7 @@
     text-align: center;
     margin-top: 6%;
 }
+
 #qty {
     width: 40px;
     text-align: center;
@@ -67,6 +68,7 @@
 .btn-qty {
     border-radius: 100%;
 }
+
 
 /* large screen size */
 @media  only screen and (min-width: 992px) {
@@ -121,10 +123,12 @@
     .radius{
         border-radius: 10px;
     }
+
     .purchase-pdct-img{
         overflow: hidden;
         height: 450px;
     }
+
     
 }
 
